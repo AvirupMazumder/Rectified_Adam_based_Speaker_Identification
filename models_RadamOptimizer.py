@@ -13,7 +13,6 @@ from python_speech_features import mfcc
 import pickle
 from keras.callbacks import ModelCheckpoint
 from cfg6 import Config
-import librosa as lr
 from keras_radam.training import RAdamOptimizer
 
 def check_data():
